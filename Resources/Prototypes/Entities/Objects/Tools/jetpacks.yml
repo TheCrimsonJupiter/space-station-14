@@ -33,17 +33,17 @@
       weightlessModifier: 1.2
     - type: CanMoveInAir
     - type: Sprite
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       state: icon
     - type: Item
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       size: Huge
     - type: UserInterface
       interfaces:
         enum.SharedGasTankUiKey.Key:
           type: GasTankBoundUserInterface
     - type: Clothing
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       quickEquip: false
       slots:
         - Back
@@ -65,10 +65,10 @@
   components:
   - type: InstantAction
     icon:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       state: icon
     iconOn:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       state: icon-on
     useDelay: 1.0
     event: !type:ToggleJetpackEvent
@@ -81,11 +81,12 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
     slots:
       - Back
+      - SuitStorage
 
 # Filled blue
 - type: entity
@@ -112,13 +113,14 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/black.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/black.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/black.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
     slots:
       - Back
+      - SuitStorage
 
 # Filled black
 - type: entity
@@ -225,13 +227,14 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
     slots:
       - Back
+      - SuitStorage
 
 #Filled security
 - type: entity
