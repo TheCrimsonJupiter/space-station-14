@@ -33,20 +33,21 @@
       weightlessModifier: 1.2
     - type: CanMoveInAir
     - type: Sprite
-      sprite: Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
+      sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       state: icon
     - type: Item
-      sprite: Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
+      sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       size: Huge
     - type: UserInterface
       interfaces:
         enum.SharedGasTankUiKey.Key:
           type: GasTankBoundUserInterface
     - type: Clothing
-      sprite: Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
+      sprite: _Harmony/Objects/Tanks/Jetpacks/blue.rsi # Harmony Change: Now fits in suit storage slot and has a sprite to match
       quickEquip: false
       slots:
         - Back
+        - SuitStorage
     - type: GasTank
       outputPressure: 21.3
       air:
