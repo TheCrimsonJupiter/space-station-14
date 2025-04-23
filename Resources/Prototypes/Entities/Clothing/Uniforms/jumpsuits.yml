@@ -958,10 +958,10 @@
   description: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
   components:
   - type: Sprite
-#    sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
+#    sprite: Clothing/Uniforms/Jumpsuit/musician.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/musician.rsi # Updated sprite pathing for Harmony
   - type: Clothing
-#    sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
+#    sprite: Clothing/Uniforms/Jumpsuit/musician.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/musician.rsi # Updated sprite pathing for Harmony
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
