@@ -843,10 +843,10 @@
   description: A fancy skirt for the musically inclined. Perfect for any lounge act!
   components:
   - type: Sprite
-#    sprite: Clothing/Uniforms/Jumpskirt/musician.rsi
+#    sprite: Clothing/Uniforms/Jumpskirt/musician.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/musician.rsi # Updated sprite pathing for Harmony
   - type: Clothing
-#    sprite: Clothing/Uniforms/Jumpskirt/musician.rsi
+#    sprite: Clothing/Uniforms/Jumpskirt/musician.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/musician.rsi # Updated sprite pathing for Harmony
 
 - type: entity
