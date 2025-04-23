@@ -5,10 +5,10 @@
   description: A nice and tidy uniform. Shame about the bar though.
   components:
   - type: Sprite
-#    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi 
+#    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/bartender.rsi # Updated sprite pathing for Harmony
   - type: Clothing
-#    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi 
+#    sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/bartender.rsi # Updated sprite pathing for Harmony
 
 - type: entity
