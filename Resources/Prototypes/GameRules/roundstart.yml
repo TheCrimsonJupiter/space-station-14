@@ -114,7 +114,8 @@
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 20
+#    minPlayers: 20 # Commented out on Harmony
+    minPlayers: 35 # Updated minimum required players for Harmony
   - type: LoadMapRule
     mapPath: /Maps/Nonstations/nukieplanet.yml
   - type: AntagSelection
