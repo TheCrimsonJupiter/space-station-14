@@ -248,7 +248,6 @@
   - type: Sprite
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/janitor.rsi # Updated sprite pathing for Harmony
   - type: Clothing
-#    sprite: Clothing/Uniforms/Jumpskirt/janitor.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpskirt/janitor.rsi # Updated sprite pathing for Harmony
 
 - type: entity
