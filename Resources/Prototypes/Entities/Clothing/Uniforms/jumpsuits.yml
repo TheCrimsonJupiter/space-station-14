@@ -427,7 +427,7 @@
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/janitor.rsi # Updated sprite pathing for Harmony
   - type: Clothing
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/janitor.rsi # Updated sprite pathing for Harmony
-    
+
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitKimono
