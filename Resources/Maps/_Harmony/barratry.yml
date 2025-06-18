@@ -140821,8 +140821,6 @@ entities:
       pos: -22.5,57.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 6373
   - uid: 10152
@@ -140831,8 +140829,6 @@ entities:
       pos: -50.5,64.5
       parent: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 7700
 - proto: WeaponEnergyTurretStationControlPanel
