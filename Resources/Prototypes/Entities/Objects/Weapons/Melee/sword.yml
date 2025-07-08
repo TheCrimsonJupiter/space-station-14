@@ -151,6 +151,7 @@
     damage:
       types:
         Slash: 15 # Harmony change - Halved damage from 30 slash to 15.
+        Structural: 20 # Harmony
   - type: Item
     storedSprite:
       state: storage
