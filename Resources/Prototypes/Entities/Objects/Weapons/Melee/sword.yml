@@ -150,7 +150,7 @@
     wideAnimationRotation: -60
     damage:
       types:
-        Slash: 30
+        Slash: 15 # Harmony change - Halved damage from 30 slash to 15.
   - type: Item
     storedSprite:
       state: storage
