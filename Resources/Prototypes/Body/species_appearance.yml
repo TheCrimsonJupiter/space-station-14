@@ -39,7 +39,6 @@
     # - map: [ "eyes" ] # Harmony Change: Moves eyes over facialhair and headside
     # - map: [ "belt" ] # Harmony Change: Moves Belt back over outerclothing
     - map: [ "id" ]
-    - map: [ "id" ]
     - map: [ "outerClothing" ]
     - map: [ "belt" ] # Harmony Change: Moves Belt back over outerclothing
     - map: [ "back" ]
