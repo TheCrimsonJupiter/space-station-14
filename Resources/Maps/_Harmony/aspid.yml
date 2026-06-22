@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/22/2026 04:29:35
-  entityCount: 19575
+  time: 06/22/2026 04:52:17
+  entityCount: 19592
 maps:
 - 1
 grids:
@@ -12519,7 +12519,7 @@ entities:
       pos: 8.5,46.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -15607.748
+      secondsUntilStateChange: -15803.055
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59124,6 +59124,12 @@ entities:
     - type: Transform
       pos: 40.5,-7.5
       parent: 2
+  - uid: 19587
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 17.5,-36.5
+      parent: 2
 - proto: EmergencyMedipen
   entities:
   - uid: 8899
@@ -93877,6 +93883,14 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
+  - uid: 14801
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 26.5,2.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
 - proto: IntercomScience
   entities:
   - uid: 13507
@@ -102089,7 +102103,7 @@ entities:
   - uid: 14786
     components:
     - type: Transform
-      pos: 33.5,1.5
+      pos: 29.5,11.5
       parent: 2
   - uid: 14787
     components:
@@ -102155,16 +102169,6 @@ entities:
     components:
     - type: Transform
       pos: 25.5,7.5
-      parent: 2
-  - uid: 14800
-    components:
-    - type: Transform
-      pos: 29.5,10.5
-      parent: 2
-  - uid: 14801
-    components:
-    - type: Transform
-      pos: 26.5,2.5
       parent: 2
   - uid: 14802
     components:
@@ -102305,6 +102309,16 @@ entities:
     components:
     - type: Transform
       pos: 23.5,44.5
+      parent: 2
+  - uid: 19582
+    components:
+    - type: Transform
+      pos: 33.5,0.5
+      parent: 2
+  - uid: 19592
+    components:
+    - type: Transform
+      pos: 25.5,2.5
       parent: 2
 - proto: RandomSmokables
   entities:
@@ -104979,6 +104993,13 @@ entities:
       parent: 2
 - proto: Screen
   entities:
+  - uid: 14800
+    components:
+    - type: Transform
+      pos: 22.5,19.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
   - uid: 15335
     components:
     - type: Transform
@@ -105396,6 +105417,104 @@ entities:
     components:
     - type: Transform
       pos: -10.5,26.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19576
+    components:
+    - type: Transform
+      pos: 11.5,16.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19577
+    components:
+    - type: Transform
+      pos: 14.5,33.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19578
+    components:
+    - type: Transform
+      pos: 18.5,25.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19579
+    components:
+    - type: Transform
+      pos: 29.5,10.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19580
+    components:
+    - type: Transform
+      pos: 33.5,1.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19581
+    components:
+    - type: Transform
+      pos: 23.5,-14.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19583
+    components:
+    - type: Transform
+      pos: -9.5,-17.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19584
+    components:
+    - type: Transform
+      pos: -12.5,-34.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19585
+    components:
+    - type: Transform
+      pos: 2.5,-41.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19586
+    components:
+    - type: Transform
+      pos: 16.5,-36.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19588
+    components:
+    - type: Transform
+      pos: 20.5,-22.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19589
+    components:
+    - type: Transform
+      pos: 25.5,6.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19590
+    components:
+    - type: Transform
+      pos: 26.5,-10.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 19591
+    components:
+    - type: Transform
+      pos: 23.5,-2.5
       parent: 2
     - type: Fixtures
       fixtures: {}
